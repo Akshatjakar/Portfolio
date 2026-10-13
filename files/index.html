@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Akshat Jakar – AI Engineer</title>
+
+  <meta
+    name="description"
+    content="Portfolio of Akshat Jakar, AI and full-stack developer specializing in Agentic AI, RAG systems, and web development."
+  />
+
+  <meta name="theme-color" content="#0b0b0c">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav id="nav" aria-label="Primary navigation"></nav>
+
+  <main>
+    <!-- Hero -->
+    <header
+      class="hero"
+      id="home"
+      aria-label="Introduction"
+    ></header>
+
+    <!-- Experience -->
+    <section
+      id="experience"
+      class="wrap"
+      aria-labelledby="experience-heading"
+    >
+      <h2 id="experience-heading">EXPERIENCE</h2>
+      <div id="expList"></div>
+    </section>
+
+    <!-- Projects -->
+    <section
+      id="projects"
+      class="wrap"
+      aria-labelledby="projects-heading"
+    >
+      <h2 id="projects-heading">PROJECTS</h2>
+
+      <div class="grid" id="projectGrid"></div>
+    </section>
+
+    <!-- Achievements -->
+    <section
+      id="wins"
+      class="wrap"
+      aria-labelledby="achievements-heading"
+    >
+      <h2 id="achievements-heading">ACHIEVEMENTS</h2>
+
+      <div id="winList"></div>
+    </section>
+
+    <!-- Skills -->
+    <section
+      id="skills"
+      class="wrap"
+      aria-labelledby="skills-heading"
+    >
+      <h2 id="skills-heading">SKILLS</h2>
+
+      <div class="card">
+        <div class="chips plain" id="skillList"></div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section
+      id="contact"
+      class="wrap contact"
+      aria-label="Contact"
+    ></section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="foot">
+    <div class="foot-in" id="foot"></div>
+  </footer>
+
+  <!-- No JavaScript fallback -->
+  <noscript>
+    <p style="padding: 2rem; color: #999;">
+      Please enable JavaScript to view this portfolio.
+    </p>
+  </noscript>
+
+  <!-- Load portfolio data before the main script -->
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
